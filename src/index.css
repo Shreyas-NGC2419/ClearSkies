@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /*
+  line-height: 1.5;
+  font-weight: 400;
+  */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+  
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  */
+} 
+
+body{
+  background-image: url("https://wallpapercave.com/wp/2FwK691.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#searchbar-cont{
+  display: flex;
+  gap:0.75em;
+  align-items: center;
+  font-size: large;
+  position: relative;
+}
+
+#searchbar-cont input{
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 1.5em;
+  font-size: large;
+  /* filter: opacity(0.5); */
+}
+
+#city-btn{
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  transition-duration: 200ms;
+}
+
+#city-btn:hover{
+  cursor: pointer;
+  filter: opacity(0.7);
+}
+
+#search-icon{
+  position: absolute;
+  right:10px;
+  transition-duration: 200ms;
+}
+
+#search-icon:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+
+@media(max-width:1000px){
+  #searchbar-cont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #city-btn{
+    width: 150px;
+  }
+
+  #search-icon{
+    bottom: 10px;
+  }
+}

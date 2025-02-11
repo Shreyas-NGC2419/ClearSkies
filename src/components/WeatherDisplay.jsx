@@ -10,7 +10,7 @@ export function WeatherDisplay({ data }) {
                 <img src={weatherImage} alt="weather_img" />
             </div>
             <div className="data-container">
-                <h2>{data.name ? `${data.name}, ${data.sys?.country || ""}` : ""}</h2>
+                <h2 style={{fontSize:"xxx-large"}}>{data.name ? `${data.name}, ${data.sys?.country || ""}` : ""}</h2>
                 <div className="main-info-section">
                     <div className="info-container">
                         <div className="temp-container">

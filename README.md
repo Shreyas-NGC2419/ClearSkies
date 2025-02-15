@@ -1,8 +1,10 @@
-# React + Vite
+# ClearSkies Weather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weather forecasting app built with React for the frontend and Netlify Functions for the backend. Fetch real-time weather data using the OpenWeather API and dynamically display results in an intuitive UI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
+Frontend: React, Vite
+Backend: Netlify Functions (Serverless)
+APIs Used: OpenWeather API, Geocode API
+Deployment: Netlify

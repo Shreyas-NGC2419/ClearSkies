@@ -4,7 +4,7 @@ A weather forecasting app built with React for the frontend and Netlify Function
 
 
 # Tech Stack
-Frontend: React, Vite
-Backend: Netlify Functions (Serverless)
-APIs Used: OpenWeather API, Geocode API
-Deployment: Netlify
+Frontend: React, Vite \
+Backend: Netlify Functions (Serverless) \
+APIs Used: OpenWeather API, Geocode API \
+Deployment: Netlify \
